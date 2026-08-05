@@ -1,0 +1,450 @@
+/* =================================
+   Forum Page
+   Yalla Nanhad
+================================= */
+
+
+/* Hero */
+
+.forum-hero{
+
+padding:150px 0 70px;
+
+background:linear-gradient(
+135deg,
+#0F6B4B,
+#2FAE66
+);
+
+color:#fff;
+
+text-align:center;
+
+}
+
+
+
+.forum-hero h1{
+
+font-size:52px;
+
+font-weight:800;
+
+margin-bottom:15px;
+
+}
+
+
+
+.forum-hero p{
+
+font-size:20px;
+
+}
+
+
+
+
+
+/* Create Post */
+
+
+.post-box{
+
+background:#fff;
+
+border-radius:25px;
+
+padding:25px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.user-area{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+}
+
+
+
+.user-area img{
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+}
+
+
+
+.user-area input{
+
+flex:1;
+
+border:1px solid #ddd;
+
+border-radius:30px;
+
+padding:15px 25px;
+
+font-size:16px;
+
+}
+
+
+
+.post-actions{
+
+display:flex;
+
+gap:15px;
+
+margin-top:20px;
+
+flex-wrap:wrap;
+
+}
+
+
+
+.post-actions button{
+
+border:none;
+
+background:#EAF7EE;
+
+color:#0F6B4B;
+
+padding:12px 20px;
+
+border-radius:30px;
+
+font-weight:bold;
+
+}
+
+
+
+.post-actions .publish-btn{
+
+background:#0F6B4B;
+
+color:#fff;
+
+}
+
+
+
+
+
+/* Posts */
+
+
+.post-card{
+
+background:#fff;
+
+border-radius:25px;
+
+padding:30px;
+
+margin-bottom:25px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.post-header{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+margin-bottom:20px;
+
+}
+
+
+
+.post-header img{
+
+width:60px;
+
+height:60px;
+
+border-radius:50%;
+
+}
+
+
+
+.post-header h5{
+
+margin:0;
+
+font-weight:800;
+
+}
+
+
+
+.post-header span{
+
+color:#777;
+
+font-size:14px;
+
+}
+
+
+
+.post-card h3{
+
+font-size:26px;
+
+margin-bottom:15px;
+
+}
+
+
+
+.post-card p{
+
+font-size:17px;
+
+line-height:1.9;
+
+color:#555;
+
+}
+
+
+
+
+/* Post Footer */
+
+
+.post-footer{
+
+display:flex;
+
+gap:25px;
+
+border-top:1px solid #eee;
+
+padding-top:20px;
+
+}
+
+
+
+.post-footer button{
+
+border:none;
+
+background:none;
+
+font-weight:bold;
+
+color:#666;
+
+}
+
+
+
+.post-footer button:hover{
+
+color:#0F6B4B;
+
+}
+
+
+
+.like-btn.liked{
+
+color:#e53935;
+
+}
+
+
+
+
+
+/* Comments */
+
+
+.comments-area{
+
+margin-top:20px;
+
+}
+
+
+
+.comments-area input{
+
+width:100%;
+
+border:1px solid #ddd;
+
+border-radius:30px;
+
+padding:13px 20px;
+
+}
+
+
+
+
+
+/* Sidebar */
+
+
+.forum-sidebar{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:25px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.forum-sidebar h4{
+
+font-weight:800;
+
+margin-bottom:20px;
+
+}
+
+
+
+.forum-sidebar ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+
+
+.forum-sidebar li{
+
+padding:12px;
+
+border-radius:15px;
+
+cursor:pointer;
+
+}
+
+
+
+.forum-sidebar li:hover{
+
+background:#EAF7EE;
+
+color:#0F6B4B;
+
+}
+
+
+
+
+/* Dark Mode */
+
+
+body.dark-mode .post-box,
+body.dark-mode .post-card,
+body.dark-mode .forum-sidebar{
+
+background:#1f1f1f;
+
+color:#fff;
+
+}
+
+
+
+body.dark-mode .post-card p,
+body.dark-mode .post-header span{
+
+color:#ccc;
+
+}
+
+
+
+body.dark-mode .post-footer{
+
+border-color:#333;
+
+}
+
+
+
+
+
+/* Responsive */
+
+
+@media(max-width:768px){
+
+
+.forum-hero h1{
+
+font-size:35px;
+
+}
+
+
+
+.post-card{
+
+padding:20px;
+
+}
+
+
+
+.post-card h3{
+
+font-size:22px;
+
+}
+
+
+
+.post-footer{
+
+justify-content:space-between;
+
+gap:10px;
+
+}
+
+
+
+  }
