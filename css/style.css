@@ -784,3 +784,82 @@ font-size:26px;
 }
 
  }
+/* زر العودة للأعلى */
+
+.top-btn{
+
+position:fixed;
+
+left:25px;
+
+bottom:95px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:var(--primary);
+
+color:#fff;
+
+font-size:22px;
+
+cursor:pointer;
+
+opacity:0;
+
+visibility:hidden;
+
+transition:.3s;
+
+box-shadow:var(--shadow);
+
+z-index:999;
+
+}
+
+.top-btn.show{
+
+opacity:1;
+
+visibility:visible;
+
+}
+
+/* الوضع الليلي */
+
+body.dark-mode{
+
+background:#121212;
+
+color:#fff;
+
+}
+
+body.dark-mode .main-header,
+body.dark-mode .book-card,
+body.dark-mode .article-card,
+body.dark-mode .podcast-item,
+body.dark-mode .search-box{
+
+background:#1f1f1f;
+
+color:#fff;
+
+}
+
+body.dark-mode .nav-link,
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5{
+
+color:#fff;
+
+ }
