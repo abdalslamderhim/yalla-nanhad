@@ -1,0 +1,383 @@
+/* =================================
+   Article Reading Page
+   Yalla Nanhad
+================================= */
+
+
+/* Header Article */
+
+.article-header{
+
+padding-top:150px;
+
+padding-bottom:60px;
+
+text-align:center;
+
+background:#f7f8fa;
+
+}
+
+
+
+.article-tag{
+
+display:inline-block;
+
+background:#EAF7EE;
+
+color:#0F6B4B;
+
+padding:8px 18px;
+
+border-radius:30px;
+
+font-weight:700;
+
+}
+
+
+
+.article-header h1{
+
+font-size:52px;
+
+font-weight:800;
+
+line-height:1.5;
+
+margin:25px auto;
+
+max-width:900px;
+
+}
+
+
+
+.article-header .lead{
+
+font-size:21px;
+
+color:#666;
+
+max-width:700px;
+
+margin:auto;
+
+}
+
+
+
+
+/* Author */
+
+
+.author-info{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:15px;
+
+margin-top:35px;
+
+}
+
+
+
+.author-avatar img{
+
+width:65px;
+
+height:65px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+}
+
+
+
+.author-info h6{
+
+margin-bottom:5px;
+
+font-size:18px;
+
+}
+
+
+
+.author-info span{
+
+color:#777;
+
+font-size:14px;
+
+}
+
+
+
+/* Cover */
+
+
+.article-cover{
+
+padding:50px 0;
+
+}
+
+
+
+.article-cover img{
+
+width:100%;
+
+max-height:550px;
+
+object-fit:cover;
+
+border-radius:25px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+}
+
+
+
+
+
+/* Article Content */
+
+
+.article-content-page{
+
+padding-bottom:50px;
+
+}
+
+
+
+.article-content-page article{
+
+max-width:800px;
+
+margin:auto;
+
+background:#fff;
+
+padding:50px;
+
+border-radius:25px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+}
+
+
+
+.article-content-page p{
+
+font-size:21px;
+
+line-height:2.2;
+
+color:#444;
+
+margin-bottom:35px;
+
+}
+
+
+
+.article-content-page h2{
+
+font-size:34px;
+
+margin:45px 0 20px;
+
+}
+
+
+
+.article-content-page blockquote{
+
+border-right:5px solid #0F6B4B;
+
+background:#EAF7EE;
+
+padding:25px;
+
+font-size:25px;
+
+font-weight:bold;
+
+border-radius:15px;
+
+margin:40px 0;
+
+}
+
+
+
+
+
+/* Share */
+
+
+.share-area{
+
+max-width:800px;
+
+margin:30px auto;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+}
+
+
+
+.share-btn{
+
+background:#0F6B4B;
+
+color:#fff;
+
+border:none;
+
+padding:12px 30px;
+
+border-radius:30px;
+
+font-weight:bold;
+
+}
+
+
+
+
+
+/* Comments */
+
+
+.article-comments{
+
+background:#f7f8fa;
+
+}
+
+
+
+.article-comments h2{
+
+margin-bottom:25px;
+
+}
+
+
+
+
+
+/* Dark Mode */
+
+
+body.dark-mode .article-header,
+body.dark-mode .article-comments{
+
+background:#121212;
+
+}
+
+
+
+body.dark-mode .article-content-page article{
+
+background:#1f1f1f;
+
+}
+
+
+
+body.dark-mode .article-content-page p,
+body.dark-mode .article-header .lead{
+
+color:#ddd;
+
+}
+
+
+
+body.dark-mode .article-content-page h2,
+body.dark-mode .article-header h1{
+
+color:#fff;
+
+}
+
+
+
+
+
+/* Responsive */
+
+
+@media(max-width:768px){
+
+
+.article-header h1{
+
+font-size:32px;
+
+}
+
+
+
+.article-header .lead{
+
+font-size:17px;
+
+}
+
+
+
+.article-content-page article{
+
+padding:25px;
+
+}
+
+
+
+.article-content-page p{
+
+font-size:18px;
+
+}
+
+
+
+.article-content-page h2{
+
+font-size:27px;
+
+}
+
+
+
+.article-cover img{
+
+border-radius:15px;
+
+}
+
+
+
+  }
