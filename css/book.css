@@ -1,0 +1,540 @@
+/* =================================
+   Book Details Page
+   Yalla Nanhad
+================================= */
+
+
+/* Book Hero */
+
+.book-details{
+
+padding-top:150px;
+
+padding-bottom:80px;
+
+background:#f7f8fa;
+
+}
+
+
+.book-cover{
+
+background:#fff;
+
+padding:20px;
+
+border-radius:25px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.1);
+
+text-align:center;
+
+}
+
+
+.book-cover img{
+
+width:100%;
+
+max-width:350px;
+
+height:480px;
+
+object-fit:cover;
+
+border-radius:18px;
+
+}
+
+
+
+/* Information */
+
+
+.book-info-page{
+
+padding:30px;
+
+}
+
+
+.book-category{
+
+display:inline-block;
+
+background:#eaf7ee;
+
+color:#0F6B4B;
+
+padding:8px 18px;
+
+border-radius:30px;
+
+font-weight:700;
+
+}
+
+
+.book-info-page h1{
+
+font-size:48px;
+
+margin:20px 0 10px;
+
+color:#222;
+
+}
+
+
+.book-info-page h4{
+
+color:#777;
+
+margin-bottom:20px;
+
+}
+
+
+
+.rating{
+
+display:flex;
+
+align-items:center;
+
+gap:5px;
+
+margin-bottom:25px;
+
+}
+
+
+.rating i{
+
+color:#F5C542;
+
+font-size:22px;
+
+}
+
+
+.rating span{
+
+margin-right:15px;
+
+color:#777;
+
+}
+
+
+
+
+.description{
+
+font-size:19px;
+
+line-height:2;
+
+color:#555;
+
+max-width:700px;
+
+}
+
+
+
+/* Buttons */
+
+
+.book-buttons{
+
+display:flex;
+
+gap:15px;
+
+margin:35px 0;
+
+flex-wrap:wrap;
+
+}
+
+
+
+.read-book,
+
+.download-book{
+
+padding:15px 30px;
+
+border-radius:40px;
+
+font-weight:700;
+
+display:flex;
+
+align-items:center;
+
+gap:8px;
+
+}
+
+
+
+.read-book{
+
+background:#0F6B4B;
+
+color:#fff;
+
+}
+
+
+
+.read-book:hover{
+
+background:#2FAE66;
+
+color:#fff;
+
+}
+
+
+
+.download-book{
+
+background:#fff;
+
+color:#0F6B4B;
+
+border:2px solid #0F6B4B;
+
+}
+
+
+
+.download-book:hover{
+
+background:#0F6B4B;
+
+color:#fff;
+
+}
+
+
+
+.favorite-page{
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+border:none;
+
+background:#ffecec;
+
+color:#e53935;
+
+font-size:22px;
+
+}
+
+
+
+/* Meta */
+
+
+.book-meta{
+
+display:flex;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+}
+
+
+.book-meta div{
+
+background:#fff;
+
+padding:15px 20px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+
+font-weight:600;
+
+}
+
+
+
+.book-meta i{
+
+color:#0F6B4B;
+
+margin-left:8px;
+
+}
+
+
+
+/* About */
+
+
+.about-book{
+
+background:#fff;
+
+}
+
+
+.about-book h2,
+.similar-books h2,
+.comments h2{
+
+font-size:32px;
+
+margin-bottom:20px;
+
+}
+
+
+
+.about-book p{
+
+font-size:18px;
+
+line-height:2;
+
+color:#555;
+
+}
+
+
+
+/* Similar Books */
+
+
+.small-book{
+
+background:#fff;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+
+
+.small-book:hover{
+
+transform:translateY(-8px);
+
+}
+
+
+.small-book img{
+
+width:100%;
+
+height:280px;
+
+object-fit:cover;
+
+}
+
+
+.small-book h5{
+
+padding:20px;
+
+}
+
+
+
+/* Comments */
+
+
+.comment-box{
+
+background:#fff;
+
+padding:25px;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+
+.comment-box textarea{
+
+width:100%;
+
+height:120px;
+
+border:1px solid #ddd;
+
+border-radius:15px;
+
+padding:15px;
+
+resize:none;
+
+margin-bottom:15px;
+
+}
+
+
+
+.comment-box button{
+
+background:#0F6B4B;
+
+color:#fff;
+
+border:none;
+
+padding:12px 35px;
+
+border-radius:30px;
+
+}
+
+
+
+/* Footer */
+
+
+footer{
+
+background:#0F6B4B;
+
+color:#fff;
+
+}
+
+
+
+/* Dark Mode */
+
+
+body.dark-mode .book-details,
+body.dark-mode .about-book{
+
+background:#121212;
+
+}
+
+
+body.dark-mode .book-info-page h1,
+body.dark-mode .about-book h2,
+body.dark-mode .similar-books h2,
+body.dark-mode .comments h2{
+
+color:#fff;
+
+}
+
+
+body.dark-mode .description,
+body.dark-mode .about-book p{
+
+color:#ccc;
+
+}
+
+
+body.dark-mode .book-cover,
+body.dark-mode .book-meta div,
+body.dark-mode .small-book,
+body.dark-mode .comment-box{
+
+background:#1f1f1f;
+
+color:#fff;
+
+}
+
+
+
+
+/* Responsive */
+
+
+@media(max-width:992px){
+
+.book-info-page{
+
+text-align:center;
+
+}
+
+
+.book-info-page h1{
+
+font-size:36px;
+
+}
+
+
+.book-buttons{
+
+justify-content:center;
+
+}
+
+
+.book-meta{
+
+justify-content:center;
+
+}
+
+}
+
+
+
+@media(max-width:576px){
+
+
+.book-cover img{
+
+height:380px;
+
+}
+
+
+.book-info-page{
+
+padding:15px;
+
+}
+
+
+.book-info-page h1{
+
+font-size:30px;
+
+}
+
+
+.book-buttons a{
+
+width:100%;
+
+justify-content:center;
+
+}
+
+  }
